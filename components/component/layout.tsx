@@ -29,7 +29,7 @@ import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card }
 
 export function Layout() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="bg-black flex flex-col min-h-screen">
       <header className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center">
         <div className="flex items-center gap-4">
           <img
@@ -199,75 +199,3 @@ media only screen and (max-width: 600px) {
         width: 100%;
     }
 }
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>간단한 웹페이지</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        .main {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 20px;
-        }
-        .main img {
-            max-width: 100%;
-            height: auto;
-        }
-        .sidebar {
-            background-color: #f4f4f4;
-            padding: 10px;
-        }
-        .content {
-            background-color: #fff;
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>간단한 웹페이지</h1>
-    </header>
-    <div class="container">
-        <section class="main">
-            <div class="sidebar">
-                <h2>Sidebar</h2>
-                <p>여기에 사이드바 콘텐츠</p>
-            </div>
-            <div class="content">
-                <h2>Main Content</h2>
-                <p>여기에 메인 콘텐츠</p>
-                <img src="https://via.placeholder.com/400" alt="Placeholder Image">
-            </div>
-        </section>
-    </div>
-    <footer>
-        <p>저작권 © 2024</p>
-    </footer>
-</body>
-</html>
