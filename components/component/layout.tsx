@@ -36,7 +36,7 @@ export function Layout() {
             alt="Profile"
             className="rounded-full"
             height={48}
-            src="/placeholder.svg"
+            src="/1.jpg"
             style={{
               aspectRatio: "48/48",
               objectFit: "cover",
