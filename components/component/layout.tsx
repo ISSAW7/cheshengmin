@@ -24,7 +24,7 @@ import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card }
 export function Layout() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center">
+      <header className="bg-gray-900 text-black py-4 px-6 flex justify-between items-center">
         <div className="flex items-center gap-4">
           <img
             alt="Profile"
@@ -113,13 +113,12 @@ export function Layout() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle>Project 1</CardTitle>
+                  <CardTitle>HEXTEC: ENTROPY</CardTitle>
                   <CardDescription>A web application for managing tasks and projects.</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Developed a full-stack web application using React, Node.js, and MongoDB. Implemented features such
-                    as task management, team collaboration, and real-time updates.
+                    서강대 게임 교육원 2학년 1학기 프로젝트 
                   </p>
                 </CardContent>
                 <CardFooter>
@@ -149,7 +148,7 @@ export function Layout() {
           </div>
         </section>
       </main>
-      <footer className="bg-gray-900 text-white py-6 px-6">
+      <footer className="bg-gray-900 text-black py-6 px-6">
         <div className="container mx-auto flex justify-between items-center">
           <p>© 2023 John Doe. All rights reserved.</p>
           <div className="flex gap-4">
