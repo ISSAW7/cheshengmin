@@ -191,6 +191,14 @@ function MenuIcon(props) {
     </svg>
   )
 }
+media only screen and (max-width: 600px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+    .sidebar, .content {
+        width: 100%;
+    }
+}
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
