@@ -120,9 +120,9 @@ export function Layout() {
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Link className="text-blue-500 hover:text-blue-700" href="#">
+                  <Link className="text-blue-500 hover:text-blue-700" href="https://www.youtube.com/watch?v=6rsTcAvQ55U">
                     View Project
-                  </Link https://www.youtube.com/watch?v=6rsTcAvQ55U> 
+                  </Link> 
                 </CardFooter>
               </Card>
               <Card>
@@ -136,9 +136,9 @@ export function Layout() {
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Link className="text-blue-500 hover:text-blue-700" href="#">
+                  <Link className="text-blue-500 hover:text-blue-700" href="https://www.instagram.com/issa_7758/?igsh=MXNkY3F2Z2p0Ymhveg%3D%3D&utm_source=qr">
                     View Project
-                  </Link https://www.instagram.com/issa_7758/?igsh=MXNkY3F2Z2p0Ymhveg%3D%3D&utm_source=qr>
+                  </Link>
                 </CardFooter>
               </Card>
             </div>
