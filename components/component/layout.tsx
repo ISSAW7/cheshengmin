@@ -107,7 +107,7 @@ export function Layout() {
             </div>
           </div>
         </section>
-        <section className="bg-white dark:bg-gray-900 py-12 md:py-20">
+        <section className="bg-black dark:bg-gray-900 py-12 md:py-20">
           <div className="container mx-auto px-4 md:px-6 max-w-3xl">
             <h2 className="text-3xl font-bold mb-8">Recent Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
