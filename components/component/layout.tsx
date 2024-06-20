@@ -122,24 +122,23 @@ export function Layout() {
                 <CardFooter>
                   <Link className="text-blue-500 hover:text-blue-700" href="#">
                     View Project
-                  </Link>
+                  </Link> https://www.youtube.com/watch?v=6rsTcAvQ55U
                 </CardFooter>
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Project 2</CardTitle>
+                  <CardTitle>insragram</CardTitle>
                   <CardDescription>A mobile app for tracking fitness activities.</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Developed a cross-platform mobile app using React Native. Integrated with various fitness tracking
-                    APIs to provide comprehensive data visualization and analysis.
+                    작업물 포트폴리오
                   </p>
                 </CardContent>
                 <CardFooter>
                   <Link className="text-blue-500 hover:text-blue-700" href="#">
                     View Project
-                  </Link>
+                  </Link> https://www.instagram.com/issa_7758/?igsh=MXNkY3F2Z2p0Ymhveg%3D%3D&utm_source=qr
                 </CardFooter>
               </Card>
             </div>
