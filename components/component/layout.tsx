@@ -91,7 +91,7 @@ export function Layout() {
                   alt="Profile"
                   className="rounded-full"
                   height={300}
-                  src="/1.jpg"
+                  src="/7.jpg"
                   width={300}
                 />
                 <img
@@ -134,6 +134,13 @@ export function Layout() {
                   <p className="text-gray-600 dark:text-gray-400">
                     작업물 포트폴리오
                   </p>
+                    <img
+                  alt="Profile"
+                  className="rounded-full"
+                  height={300}
+                  src="/5.jpg"
+                  width={300}
+                />
                 </CardContent>
                 <CardFooter>
                   <Link className="text-blue-500 hover:text-blue-700" href="https://www.instagram.com/issa_7758/?igsh=MXNkY3F2Z2p0Ymhveg%3D%3D&utm_source=qr">
