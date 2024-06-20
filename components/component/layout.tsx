@@ -23,9 +23,9 @@ import { Button } from "@/components/ui/button"
 import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card } from "@/components/ui/card"
 export function Layout() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       <header className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 bg-black">
           <img
             alt="Profile"
             className="rounded-full"
@@ -43,7 +43,7 @@ export function Layout() {
             <p className="text-gray-400">GOOD AT DRAWING</p>
           </div>
         </div>
-        <nav className="hidden md:flex gap-6 bg-black">
+        <nav className="hidden md:flex gap-6">
           <Link className="hover:text-gray-300" href="#">
             Home
           </Link>
@@ -59,7 +59,7 @@ export function Layout() {
         </Button>
       </header>
       <main className="flex-1 bg-black">
-        <section className="bg-gray-100 dark:bg-gray-800 py-12 md:py-20">
+        <section className="bg-black dark:bg-black py-12 md:py-20">
           <div className="container mx-auto px-4 md:px-6 max-w-3xl">
             <div className="grid md:grid-cols-1 gap-8">
               <div>
@@ -88,7 +88,7 @@ export function Layout() {
                   </div>
                 </div>
               </div>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center bg-black">
                 <img
                   alt="Profile"
                   className="rounded-full"
