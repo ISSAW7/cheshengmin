@@ -118,6 +118,13 @@ export function Layout() {
                   <p className="text-gray-600 dark:text-gray-400">
                     서강대 게임 교육원 2학년 1학기 프로젝트 
                   </p>
+                   <img
+                  alt="Profile"
+                  className="rounded-full"
+                  height={600}
+                  src="/6.jpg"
+                  width={600}
+                />
                 </CardContent>
                 <CardFooter>
                   <Link className="text-blue-500 hover:text-blue-700" href="https://www.youtube.com/watch?v=6rsTcAvQ55U">
