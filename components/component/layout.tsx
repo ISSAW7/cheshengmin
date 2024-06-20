@@ -99,10 +99,6 @@ export function Layout() {
                   className="rounded-full"
                   height={300}
                   src="/1.jpg"
-                  style={{
-                    aspectRatio: "300/300",
-                    objectFit: "cover",
-                  }}
                   width={300}
                 />
                 <img
@@ -110,10 +106,6 @@ export function Layout() {
                   className="rounded-full"
                   height={300}
                   src="/3.jpg"
-                  style={{
-                    aspectRatio: "300/300",
-                    objectFit: "cover",
-                  }}
                   width={300}
                 />
               </div>
