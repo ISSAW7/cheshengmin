@@ -65,9 +65,7 @@ export function Layout() {
               <div>
                 <h2 className="text-3xl font-bold mb-4">About Me</h2>
                 <p className="text-gray-600 dark:text-gray-400 mb-6">
-                  I am a passionate software engineer with experience in building scalable and efficient web
-                  applications. I have a strong background in JavaScript, React, and Node.js, and I am always eager to
-                  learn new technologies and techniques.
+                그림 잘 그림
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
