@@ -44,8 +44,8 @@ export function Layout() {
             width={48}
           />
           <div>
-            <h1 className="text-lg font-bold">John Doe</h1>
-            <p className="text-gray-400">Software Engineer</p>
+            <h1 className="text-lg font-bold">차성민</h1>
+            <p className="text-gray-400">dwd</p>
           </div>
         </div>
         <nav className="hidden md:flex gap-6">
