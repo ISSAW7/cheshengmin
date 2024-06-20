@@ -123,8 +123,7 @@ export function Layout() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Developed a full-stack web application using React, Node.js, and MongoDB. Implemented features such
-                    as task management, team collaboration, and real-time updates.
+                    A game I made myself
                   </p>
                 </CardContent>
                 <CardFooter>
