@@ -45,7 +45,7 @@ export function Layout() {
           />
           <div>
             <h1 className="text-lg font-bold">차성민</h1>
-            <p className="text-gray-400">dwd</p>
+            <p className="text-gray-400">GOOD AT DRAWING</p>
           </div>
         </div>
         <nav className="hidden md:flex gap-6">
