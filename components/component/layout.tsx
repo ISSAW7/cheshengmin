@@ -121,9 +121,9 @@ export function Layout() {
                    <img
                   alt="Profile"
                   className="rounded-full"
-                  height={600}
+                  height={300}
                   src="/6.jpg"
-                  width={600}
+                  width={300}
                 />
                 </CardContent>
                 <CardFooter>
