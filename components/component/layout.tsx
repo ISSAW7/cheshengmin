@@ -24,7 +24,7 @@ import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card }
 export function Layout() {
   return (
     <div className="flex flex-col min-h-screen ">
-      <header className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center">
+      <header className="bg-black text-white py-4 px-6 flex justify-between items-center">
         <div className="flex items-center gap-4 bg-black">
           <img
             alt="Profile"
