@@ -104,9 +104,9 @@ export function Layout() {
                 <img
                   alt="Profile"
                   className="rounded-full"
-                  height={300}
+                  height={600}
                   src="/3.jpg"
-                  width={300}
+                  width={600}
                 />
               </div>
             </div>
