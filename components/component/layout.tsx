@@ -118,7 +118,7 @@ export function Layout() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle>Project 1</CardTitle>
+                  <CardTitle>HEXTEC: ENTROPY</CardTitle>
                   <CardDescription>A web application for managing tasks and projects.</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -130,7 +130,7 @@ export function Layout() {
                 <CardFooter>
                   <Link className="text-blue-500 hover:text-blue-700" href="#">
                     View Project
-                  </Link>
+                  </Link> https://www.youtube.com/watch?v=6rsTcAvQ55U
                 </CardFooter>
               </Card>
               <Card>
