@@ -3,22 +3,17 @@
 * @see https://v0.dev/t/yhDV6Of06aX
 * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
 */
-
 /** Add fonts into your Next.js project:
-
 import { Archivo } from 'next/font/google'
 import { Libre_Franklin } from 'next/font/google'
-
 archivo({
   subsets: ['latin'],
   display: 'swap',
 })
-
 libre_franklin({
   subsets: ['latin'],
   display: 'swap',
 })
-
 To read more about using these font, please visit the Next.js documentation:
 - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
@@ -26,16 +21,16 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card } from "@/components/ui/card"
-
 export function Layout() {
   return (
-    <div className="bg-black flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen">
       <header className="bg-gray-900 text-white py-4 px-6 flex justify-between items-center">
         <div className="flex items-center gap-4">
           <img
             alt="Profile"
             className="rounded-full"
             height={48}
+            src="/placeholder.svg"
             src="/1.jpg"
             style={{
               aspectRatio: "48/48",
@@ -112,24 +107,25 @@ export function Layout() {
             </div>
           </div>
         </section>
-        <section className="bg-black dark:bg-gray-900 py-12 md:py-20">
+        <section className="bg-white dark:bg-gray-900 py-12 md:py-20">
           <div className="container mx-auto px-4 md:px-6 max-w-3xl">
             <h2 className="text-3xl font-bold mb-8">Recent Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle>HEXTEC: ENTROPY</CardTitle>
+                  <CardTitle>Project 1</CardTitle>
                   <CardDescription>A web application for managing tasks and projects.</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 dark:text-gray-400">
-                    A game I made myself
+                    Developed a full-stack web application using React, Node.js, and MongoDB. Implemented features such
+                    as task management, team collaboration, and real-time updates.
                   </p>
                 </CardContent>
                 <CardFooter>
                   <Link className="text-blue-500 hover:text-blue-700" href="#">
                     View Project
-                  </Link> https://www.youtube.com/watch?v=6rsTcAvQ55U
+                  </Link>
                 </CardFooter>
               </Card>
               <Card>
@@ -169,7 +165,6 @@ export function Layout() {
     </div>
   )
 }
-
 function MenuIcon(props) {
   return (
     <svg
@@ -189,12 +184,4 @@ function MenuIcon(props) {
       <line x1="4" x2="20" y1="18" y2="18" />
     </svg>
   )
-}
-media only screen and (max-width: 600px) {
-    .main {
-        grid-template-columns: 1fr;
-    }
-    .sidebar, .content {
-        width: 100%;
-    }
 }
