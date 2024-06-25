@@ -152,12 +152,10 @@ export function Layout() {
               <Card>
                 <CardHeader>
                   <CardTitle>HEXTEC: ENTROPY</CardTitle>
-                  <CardDescription>A web application for managing tasks and projects.</CardDescription>
+                  <CardDescription>서강대 게임 교육원 2학년 1학기 프로젝트.</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    서강대 게임 교육원 2학년 1학기 프로젝트 
-                  </p>
+              
                    <img
                   alt="Profile"
                   className="rounded-full"
