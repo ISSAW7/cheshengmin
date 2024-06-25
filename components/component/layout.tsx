@@ -50,7 +50,7 @@ export function Layout() {
             className="rounded-full"
             height={48}
             src="/placeholder.svg"
-            src="/g.jpg"
+            src="/g.gif"
             style={{
               aspectRatio: "48/48",
               objectFit: "cover",
@@ -64,7 +64,7 @@ export function Layout() {
             className="rounded-full"
             height={48}
             src="/placeholder.svg"
-            src="/4g1.jpg"
+            src="/4g1.gif"
             style={{
               aspectRatio: "48/48",
               objectFit: "cover",
