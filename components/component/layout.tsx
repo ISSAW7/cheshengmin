@@ -111,7 +111,7 @@ export function Layout() {
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold mb-2">Education</h3>
+                    <h3 className="text-lg font-bold text-green-100 mb-2">Education</h3>
                     <ul className="text-green-100 mb-6">
                       <li>Bachelor&aposs Degree in Computer Science</li>
                       <li>University of Example</li>
