@@ -44,8 +44,19 @@ export function Layout() {
           </div>
         </div>
         <nav className="hidden md:flex gap-6">
-          <Link className="hover:text-gray-300" href="#">
-            Home
+          <Link className="hover:text-gray-300" href="#sex1">
+            <img
+            alt="Profile"
+            className="rounded-full"
+            height={48}
+            src="/placeholder.svg"
+            src="/7.jpg"
+            style={{
+              aspectRatio: "48/48",
+              objectFit: "cover",
+            }}
+            width={48}
+          />
           </Link>
           <Link className="hover:text-gray-300" href="#">
             Projects
@@ -59,7 +70,7 @@ export function Layout() {
         </Button>
       </header>
       <main className="flex-1 bg-black">
-        <section className="bg-black dark:bg-black py-12 md:py-20">
+        <section id="sex1" className="bg-black dark:bg-black py-12 md:py-20">
           <div className="container mx-auto px-4 md:px-6 max-w-3xl">
             <div className="grid md:grid-cols-1 gap-8">
               <div>
