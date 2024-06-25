@@ -138,7 +138,7 @@ export function Layout() {
                   alt="Profile"
                   className="rounded-full"
                   height={300}
-                  src="/4.jpg"
+                  src="/8.jpg"
                   width={300}
                 />
               </div>
