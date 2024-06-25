@@ -72,8 +72,19 @@ export function Layout() {
             width={48}
           />
           </Link>
-          <Link className="hover:text-gray-300" href="#">
-            Contact
+          <Link className="hover:text-gray-300" href="#sex3">
+          <img
+            alt="Profile"
+            className="rounded-full"
+            height={48}
+            src="/placeholder.svg"
+            src="/g4.gif"
+            style={{
+              aspectRatio: "48/48",
+              objectFit: "cover",
+            }}
+            width={48}
+          />
           </Link>
         </nav>
         <Button className="md:hidden" variant="outline">
@@ -190,9 +201,9 @@ export function Layout() {
           </div>
         </section>
       </main>
-      <footer className="bg-gray-900 text-white py-6 px-6">
+      <footer id="sex3" className="bg-black-900 text-white py-6 px-6">
         <div className="container mx-auto flex justify-between items-center">
-          <p>© 2023 John Doe. All rights reserved.</p>
+          <p>© E-mail - cheshengqp@naver.com </p>
           <div className="flex gap-4">
             <Link className="hover:text-gray-300" href="#">
               Download Resume
