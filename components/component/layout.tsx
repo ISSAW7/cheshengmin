@@ -44,27 +44,14 @@ export function Layout() {
           </div>
         </div>
         <nav className="hidden md:flex gap-6">
-          <Link className="hover:text-gray-300" href="#sex1">
-            <img
-            alt="Profile"
-            className="rounded-full"
-            height={48}
-            src="/placeholder.svg"
-            src="/g.gif"
-            style={{
-              aspectRatio: "48/48",
-              objectFit: "cover",
-            }}
-            width={48}
-          />
-          </Link>
+      
           <Link className="hover:text-gray-300" href="#sex2">
             <img
             alt="Profile"
             className="rounded-full"
             height={48}
             src="/placeholder.svg"
-            src="/4g1.gif"
+            src="/g.gif"
             style={{
               aspectRatio: "48/48",
               objectFit: "cover",
@@ -104,17 +91,17 @@ export function Layout() {
                   <div>
                     <h3 className="text-lg font-bold text-green-100 mb-2">Skills</h3>
                     <ul className="text-green-100 mb-6">
-                      <li>JavaScript</li>
-                      <li>React</li>
-                      <li>Node.js</li>
-                      <li>MongoDB</li>
+                      <li>PROCREATE</li>
+                      <li>ADOBE PHOTOSHOP</li>
+                      <li>CLIP STUDIO PAINT</li>
+                  
                     </ul>
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-green-100 mb-2">Education</h3>
                     <ul className="text-green-100 mb-6">
-                      <li>Bachelor&aposs Degree in Computer Science</li>
-                      <li>University of Example</li>
+                      <li>중국어 가능</li>
+                      <li>하얼빈산합회26대손</li>
                     </ul>
                   </div>
                 </div>
@@ -174,7 +161,7 @@ export function Layout() {
               </Card>
               <Card className="bg-green-100">
                 <CardHeader>
-                  <CardTitle>insragram</CardTitle>
+                  <CardTitle>INSTAGRAM</CardTitle>
                   <CardDescription>작업물 포트폴리오</CardDescription>
                 </CardHeader>
                 <CardContent>
