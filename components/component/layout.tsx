@@ -201,7 +201,7 @@ export function Layout() {
           </div>
         </section>
       </main>
-      <footer id="sex3" className="bg-black-900 text-white py-6 px-6">
+      <footer id="sex3" className="bg-black text-white py-6 px-6">
         <div className="container mx-auto flex justify-between items-center">
           <p>© E-mail - cheshengqp@naver.com </p>
           <div className="flex gap-4">
