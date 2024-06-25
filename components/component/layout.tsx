@@ -50,7 +50,7 @@ export function Layout() {
             className="rounded-full"
             height={48}
             src="/placeholder.svg"
-            src="/7.jpg"
+            src="/g.jpg"
             style={{
               aspectRatio: "48/48",
               objectFit: "cover",
@@ -58,8 +58,19 @@ export function Layout() {
             width={48}
           />
           </Link>
-          <Link className="hover:text-gray-300" href="#">
-            Projects
+          <Link className="hover:text-gray-300" href="#sex2">
+            <img
+            alt="Profile"
+            className="rounded-full"
+            height={48}
+            src="/placeholder.svg"
+            src="/4g1.jpg"
+            style={{
+              aspectRatio: "48/48",
+              objectFit: "cover",
+            }}
+            width={48}
+          />
           </Link>
           <Link className="hover:text-gray-300" href="#">
             Contact
@@ -123,7 +134,7 @@ export function Layout() {
             </div>
           </div>
         </section>
-        <section className="bg-black dark:bg-gray-900 py-12 md:py-20">
+        <section id="sex2" className="bg-black dark:bg-gray-900 py-12 md:py-20">
           <div className="container mx-auto px-4 md:px-6 max-w-3xl">
             <h2 className="text-3xl font-bold mb-8">Recent Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
