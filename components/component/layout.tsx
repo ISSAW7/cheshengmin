@@ -175,12 +175,10 @@ export function Layout() {
               <Card>
                 <CardHeader>
                   <CardTitle>insragram</CardTitle>
-                  <CardDescription>A mobile app for tracking fitness activities.</CardDescription>
+                  <CardDescription>작업물 포트폴리오</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    작업물 포트폴리오
-                  </p>
+              
                     <img
                   alt="Profile"
                   className="rounded-full"
