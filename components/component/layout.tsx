@@ -96,13 +96,13 @@ export function Layout() {
           <div className="container mx-auto px-4 md:px-6 max-w-3xl">
             <div className="grid md:grid-cols-1 gap-8">
               <div>
-                <h2 className="text-lg font-bold mb-2">About Me</h2>
+                <h2 className="text-lg font-bold text-green-100 mb-2">About Me</h2>
                 <p className="text-green-100 mb-6">
                 그림 잘 그림
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <h3 className="text-lg font-bold mb-2">Skills</h3>
+                    <h3 className="text-lg font-bold text-green-100 mb-2">Skills</h3>
                     <ul className="text-green-100 mb-6">
                       <li>JavaScript</li>
                       <li>React</li>
@@ -202,11 +202,9 @@ export function Layout() {
           <p>© E-mail - cheshengqp@naver.com </p>
           <div className="flex gap-4">
             <Link className="hover:text-gray-300" href="#">
-              Download Resume
+             TOP
             </Link>
-            <Link className="hover:text-gray-300" href="#">
-              Contact
-            </Link>
+         
           </div>
         </div>
       </footer>
