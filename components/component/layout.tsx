@@ -97,7 +97,7 @@ export function Layout() {
             <div className="grid md:grid-cols-1 gap-8">
               <div>
                 <h2 className="text-3xl font-bold mb-4">About Me</h2>
-                <p className="text-green:text-green mb-6">
+                <p className="text-green-100 mb-6">
                 그림 잘 그림
                 </p>
                 <div className="grid grid-cols-2 gap-4">
