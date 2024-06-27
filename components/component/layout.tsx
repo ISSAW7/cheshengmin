@@ -217,5 +217,5 @@ function MenuIcon(props) {
       <line x1="4" x2="20" y1="18" y2="18" />
     </svg>
   )
-  let newTitle = currentTitle.replace('Create Next App', '차성민의 포트폴리오');
+let newTitle = currentTitle.replace('Create Next App', '차성민의 포트폴리오');
 }
